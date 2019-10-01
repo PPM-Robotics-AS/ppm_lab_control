@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: ppm_lab
+    relative_path: urdf/lab.urdf
+    xacro_args: "--inorder "
+  SRDF:
+    relative_path: config/ppm_lab.srdf
+  CONFIG:
+    author_name: Balint Tahi @ PPM AS
+    author_email: balint.tahi@ppm.no
+    generated_timestamp: 1545074464
